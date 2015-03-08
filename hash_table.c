@@ -1,3 +1,4 @@
+
 /* 
  * File:   bubbleSort.c
  * Author: Beck
@@ -76,8 +77,6 @@ char* lookup(hashTable *ht, char *key)
 	return NULL;
 }
 /*
- * 
- */
 int main(int argc, char** argv) {
 	hashTable *ht = (hashTable *)malloc(sizeof(hashTable));
 	ht->size = HASHSIZE;
@@ -88,3 +87,4 @@ int main(int argc, char** argv) {
 	printf("value: %s", value);
 	return (EXIT_SUCCESS);
 }
+*/

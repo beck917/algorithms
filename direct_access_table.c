@@ -19,7 +19,7 @@ typedef struct bucket
 }bucket;
 
 bucket *_table[10];//指向_bucket的指针
-
+/**
 bucket* search(bucket **_table, int i)
 {
 	return _table[i];
@@ -35,7 +35,7 @@ void delete(bucket **_table, bucket *_bucket)
 	_table[_bucket->index] = NULL;
 }
 
-/**
+
 int main(int argc, char** argv) {
 	int i;
 	bucket *_bucket = (bucket *)malloc(sizeof(bucket));
